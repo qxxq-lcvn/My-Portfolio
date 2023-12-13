@@ -1,0 +1,174 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    color: #7743DB;
+}
+
+/* Navigation */
+.nav {
+    text-align: center;
+    top: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-right: 150px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    margin: 15px 30px;
+}
+
+@media only screen and (max-width: 690px) {
+    #logo {
+        margin-right: 50px;
+    }
+
+    .nav ul li a {
+        margin: 15px;
+    }
+}
+
+/* Intro */
+#profile {
+    width: 200px;
+    border: 2px solid #7743DB;
+    border-radius: 50%;
+}
+
+.part {
+    text-align: center;
+    margin: 200px 0px;
+    padding: 0px 200px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .part {
+        margin: 150px 0px;
+        padding: 0px 150px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .part {
+        margin: 100px 0px;
+        padding: 0px 100px;
+    }
+}
+
+.skill img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+}
+
+#img {
+    width: 90px;
+}
+
+/* About Me */
+#about p {
+    background-color:#7743DB;
+    color: white;
+    padding: 50px;
+    margin: 0px 150px;
+}
+
+@media only screen and (max-width: 1200px) {
+    #about p {
+        padding: 25px;
+        margin: 0px 100px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #about p {
+        padding: 20px;
+        margin: 0px 50px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #about p {
+        padding: 15px;
+        margin: 0px 25px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #about p {
+        padding: 10px;
+        margin: 0px 10px;
+    }
+}
+
+/* Project */
+.projects {
+    padding: 50px 0px;
+}
+
+.details {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+
+.text {
+    padding: 20px;
+}
+
+.demo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .text {
+        font-size: 15px;
+    }
+}
+
+.projects ul {
+    padding-left: 0px;
+}
+
+.projects ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.projects ul button {
+    padding: 5px 10px;
+    background-color: #7743DB;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+/* Contact */
+#contact ul {
+    padding: 10px 30%;
+}
+
+#contact i{
+    display: block;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #7743DB;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
