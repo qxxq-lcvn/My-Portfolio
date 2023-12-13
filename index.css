@@ -34,6 +34,20 @@ body {
     }
 }
 
+@media only screen and (max-width: 400px) {
+    #logo {
+        margin-right: 30px;
+    }
+
+    .nav ul {
+        padding-left: 0px;
+    }
+
+    .nav ul li a {
+        margin: 10px;
+    }
+}
+
 /* Intro */
 #profile {
     width: 200px;
@@ -58,6 +72,13 @@ body {
     .part {
         margin: 100px 0px;
         padding: 0px 100px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .part {
+        margin: 50px 0px;
+        padding: 0px 50px;
     }
 }
 
@@ -156,10 +177,10 @@ body {
 
 /* Contact */
 #contact ul {
-    padding: 10px 30%;
+    padding: 10px 30px;
 }
 
-#contact i{
+#contact i {
     display: block;
     text-align: left;
     padding: 10px;
